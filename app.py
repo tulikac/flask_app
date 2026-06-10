@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World! Making a change " + str(datetime.now())
+    return "Hello World! Making a change for the next session" + str(datetime.now())
 
 @app.route("/applicationpath")
 def applicationPath():
